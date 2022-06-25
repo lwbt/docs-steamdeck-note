@@ -110,8 +110,8 @@ Source: [reddit][5]
 
 ## ProtonDB suggestions for specific games
 
-Dead Or Alive 5 LR:  https://www.protondb.com/app/311730 `PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 %command%`
-Tomb Raider Underworld: https://www.protondb.com/app/8140 `PROTON_USE_WINED3D=1 %command% gamescope -w 1920 -h 1080 -r 60 -n`
+- Dead Or Alive 5 LR  https://www.protondb.com/app/311730 `PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 %command%`
+- Tomb Raider Underworld: https://www.protondb.com/app/8140 `PROTON_USE_WINED3D=1 %command% gamescope -w 1920 -h 1080 -r 60 -n`
 
 
 ## Linux settings and dotfiles
