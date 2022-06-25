@@ -99,9 +99,12 @@ directory: `$HOME/.local/share/flatpak/overrides/`
 Noteworthy examples in heredoc format for copy and pasting:
 
 ```bash
+mkdir -p "$HOME/.local/share/flatpak/overrides"
+
 tee "$HOME/.local/share/flatpak/overrides/org.scummvm.ScummVM" << 'EOF'
 [Context]
 filesystems=~/Games
+EOF
 ```
 
 ## Passwordless `sudo` access
