@@ -91,9 +91,24 @@ game to Steam as you did with games from Heroic. Source: [reddit][4]
 TODO: You might need to install and configure settings in Flatseal for this app.
 
 
+## Flatpak overrides and Flatseal
+
+Existing flatpak overrides can be exported from and imported to the following
+directory: `$HOME/.local/share/flatpak/overrides/` 
+
+Noteworthy examples in heredoc format for copy and pasting:
+
+```bash
+tee "$HOME/.local/share/flatpak/overrides/org.scummvm.ScummVM" << 'EOF'
+[Context]
+filesystems=~/Games
+```
+
 ## Passwordless `sudo` access
 
-Ideally you should not need this. Especially if you don't understand what sudo is and how you can recover from a faulty sudoers configuration, which is beyond the scope of this document.
+Ideally you should not need this. Especially if you don't understand what sudo
+is and how you can recover from a faulty sudoers configuration, which is beyond
+the scope of this document.
 
 ```bash
 # Set a temporary sudo password like 123456 for current user deck
@@ -116,11 +131,13 @@ Source: [reddit][5]
 
 ## Linux settings and dotfiles
 
-I'm used to more friendlier configuration of aliases and command completion from Debian and Ubuntu. This is typical for other distributions.
+I'm used to more friendlier configuration of aliases and command completion from
+Debian and Ubuntu. This is typical for other distributions.
 
 TODO: link dotfiles repo here.
 
-While SteamOS should be treated like an appliance investigation which parts could be handled through Ansible configuration management should be evaluated.
+While SteamOS should be treated like an appliance investigation which parts
+could be handled through Ansible configuration management should be evaluated.
 
 [1]: https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3
 [2]: https://github.com/theVakhovskeIsTaken/holoiso
