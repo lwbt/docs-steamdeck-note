@@ -114,3 +114,14 @@ Read carefully here. I own a Nintendo Switch, I bought some games there, some of
 them are not Nintendo exclusives while others are free to play. It would have
 been nice to run some of them legally with minimal effort, like for example
 Fortnite. It is not possible or reasonable for me and I accept that.
+
+
+## Can I modify the controller inputs?
+
+Yes, in desktop mode open the steam client, select Steam from the menu and go to
+Controller. You can change the layout, button mappings and all other possible
+attributes there.
+
+I change to the default layout, which was not detault on SteamOS, for which I
+swapped PGUP and PGDN, set mouse acceleration on the trackpad to high und
+reduced haptic feedback.
