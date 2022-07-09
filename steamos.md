@@ -62,7 +62,8 @@ publisher. Fortnite can be installed, but does not run, it requires to have
 anticheat programs running which don't like or don't expect what SteamOS does
 with Wine and Proton.
 
-Adding games from Heroic to Steam can be done through the add **add a game**
+Adding games from Heroic to Steam can be done through a shell script named
+[HeroicBashLauncher][8]. It can also be done through the add **add a game**
 button in the Steam desktop client and selecting the respective desktop shortcut
 which you might need to create first from the tools tab of the respective game
 in Heroic.
@@ -74,7 +75,7 @@ TODO: You might need to install and configure settings in Flatseal for this app.
 
 To play older games like the early Moneky Island titles or Indiana Jones and the
 Fate of Atlantis you open the Software Center (KDE Discover) in desktop mode and
-search for ScummVm, then install it. Configure ScummVM as you are used to or
+search for **ScummVM**, then install it. Configure ScummVM as you are used to or
 refer to the ScummVM manual to setup your games.
 
 On your desktop from the context menu select Create New -> Link to Application
@@ -90,6 +91,28 @@ game to Steam as you did with games from Heroic. Source: [reddit][4]
 
 TODO: You might need to install and configure settings in Flatseal for this app.
 
+
+## Install and use Proton GE
+
+[Proton GE][6] is a customized build of Proton.
+
+Open the Software Center (KDE Discover) in desktop mode and search for
+**ProtonUp-Qt**, then install it. Run the program in desktop mode to let it
+install the latest Proton GE version. You could add the program as a game in
+steam if you feel the need to access it quickly and don't mind clutter, like I
+did for the terminal application. From the Steam UI you will be able to set
+Proton GE as the runtime environment once the initial setup and download are
+done. Desktop mode Steam settings and Steam UI settings seem to be independent.
+
+Sources:
+
+- [GitHub GloriousEggroll/proton-ge-custom][6]
+- [rockpapershotgun.com][7]
+
+
+## Install and use Bottles
+
+TBD
 
 ## Flatpak overrides and Flatseal
 
@@ -129,6 +152,7 @@ Source: [reddit][5]
 ## ProtonDB suggestions for specific games
 
 - Dead Or Alive 5 LR  https://www.protondb.com/app/311730 `PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 %command%`
+- Dead Or Alive 6 https://www.protondb.com/app/838380 Use Proton GE for working story mode
 - Tomb Raider Underworld: https://www.protondb.com/app/8140 `PROTON_USE_WINED3D=1 %command% gamescope -w 1920 -h 1080 -r 60 -n`
 
 
@@ -147,3 +171,6 @@ could be handled through Ansible configuration management should be evaluated.
 [3]: https://help.steampowered.com/en/faqs/view/671A-4453-E8D2-323C
 [4]: https://www.reddit.com/r/SteamDeck/comments/po1vg0/add_scummvm_games_to_your_steam_launcher/
 [5]: https://www.reddit.com/r/SteamDeck/comments/t8ddl4/run_sudo_commands_without_a_password_on_steam_deck/
+[6]: https://github.com/GloriousEggroll/proton-ge-custom
+[7]: https://www.rockpapershotgun.com/how-to-install-proton-ge-on-the-steam-deck
+[8]: https://github.com/redromnon/HeroicBashLauncher/wiki/Steam-Deck-(Flatpak)-Guide
