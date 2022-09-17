@@ -66,7 +66,8 @@ Adding games from Heroic to Steam can be done through a shell script named
 [HeroicBashLauncher][8]. It can also be done through the add **add a game**
 button in the Steam desktop client and selecting the respective desktop shortcut
 which you might need to create first from the tools tab of the respective game
-in Heroic.
+in Heroic. Recently an new feature was added to each game page to add it to
+Steam.
 
 TODO: You might need to install and configure settings in Flatseal for this app.
 
@@ -155,6 +156,19 @@ Source: [reddit][5]
 - Dead Or Alive 6 https://www.protondb.com/app/838380 Use Proton GE for working story mode
 - Tomb Raider Underworld: https://www.protondb.com/app/8140 `PROTON_USE_WINED3D=1 %command% gamescope -w 1920 -h 1080 -r 60 -n`
 
+## Heroic: Epic Games Store and GOG
+
+Epic Games:
+
+- Fortnite, apprently won't run due to AntiCheat
+- Genshin Impact, apprently won't run due to AntiCheat
+- Shadow of Tomb Raider, apparently does not launch with DX12 mode
+
+GOG:
+
+- Tomb Raider 1+2+3
+  - Controller mappings: https://www.thekinsie.com/words/tombraider/
+  - Been unable to launch Tomb Raider 3 yet
 
 ## Linux settings and dotfiles
 
