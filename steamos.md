@@ -206,6 +206,20 @@ TODO: link dotfiles repo here.
 While SteamOS should be treated like an appliance investigation which parts
 could be handled through Ansible configuration management should be evaluated.
 
+## Battery life extender (aka stop charing at 80%)
+
+> If your device has been left on the charger for long periods of time, it may
+> report less than 100% charge. This is normal. We allow the battery to slowly
+> discharge after long periods of time under charge to optimize long-term
+> battery health.
+
+Source: https://help.steampowered.com/en/faqs/view/69E3-14AF-9764-4C28
+
+So It can be considered "safe" for the battery life to leave it plugged in and
+docked, it won't top up the battery like crazy. The 80% thing may be a
+marketing gimmick from Apple and other manucaturers.
+
+
 [1]: https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3
 [2]: https://github.com/theVakhovskeIsTaken/holoiso
 [3]: https://help.steampowered.com/en/faqs/view/671A-4453-E8D2-323C
