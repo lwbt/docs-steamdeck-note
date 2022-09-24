@@ -113,13 +113,17 @@ Sources:
 
 ## Installation and use Bottles
 
-TBD
+Bottles is available from [Flathub][9] and thus on SteamOS. Installing your
+[first app][10] is simple, you select an environment from the presets games,
+app or custom and select to run the installer of your choice. If the App is not
+terribly broken then it will run just fine. Done!
 
 
 ## Flatpak overrides and Flatseal
 
 Existing flatpak overrides can be exported from and imported to the following
 directory: `$HOME/.local/share/flatpak/overrides/` 
+
 
 Noteworthy examples in heredoc format for copy and pasting:
 
@@ -228,3 +232,5 @@ marketing gimmick from Apple and other manucaturers.
 [6]: https://github.com/GloriousEggroll/proton-ge-custom
 [7]: https://www.rockpapershotgun.com/how-to-install-proton-ge-on-the-steam-deck
 [8]: https://github.com/redromnon/HeroicBashLauncher/wiki/Steam-Deck-(Flatpak)-Guide
+[9]: https://flathub.org/apps/details/com.usebottles.bottles
+[10]: https://docs.usebottles.com/getting-started/first-run
