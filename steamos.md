@@ -93,7 +93,7 @@ game to Steam as you did with games from Heroic. Source: [reddit][4]
 TODO: You might need to install and configure settings in Flatseal for this app.
 
 
-## Install and use Proton GE
+## Installation and use Proton GE
 
 [Proton GE][6] is a customized build of Proton.
 
@@ -111,7 +111,7 @@ Sources:
 - [rockpapershotgun.com][7]
 
 
-## Install and use Bottles
+## Installation and use Bottles
 
 TBD
 
@@ -184,6 +184,16 @@ GOG:
 - Tomb Raider 1+2+3
   - Controller mappings: https://www.thekinsie.com/words/tombraider/
   - Been unable to launch Tomb Raider 3 yet
+
+
+## Known issues with hardware
+
+### Monitors with USB-C input work but integrated USB hubs and attached devices don't work
+
+That is the YMMV part. I have two Dell U2720Q. One had firmware M2T101 and the
+other firmware M2T104. The latter can be upgraded to newer firmware, the other
+can apparently not and USB devices are not detected on the device with the
+older firmware while the newer has no problems and works just fine.
 
 
 ## Linux settings and dotfiles
