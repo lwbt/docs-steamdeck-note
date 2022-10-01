@@ -93,12 +93,12 @@ game to Steam as you did with games from Heroic. Source: [reddit][4]
 TODO: You might need to install and configure settings in Flatseal for this app.
 
 
-## Installation and use Proton GE
+## Installation and use of Proton GE and other Compatibility Tools
 
 [Proton GE][6] is a customized build of Proton.
 
 Open the Software Center (KDE Discover) in desktop mode and search for
-**ProtonUp-Qt**, then install it. Run the program in desktop mode to let it
+[ProtonUp-Qt][11], then install it. Run the program in desktop mode to let it
 install the latest Proton GE version. You could add the program as a game in
 steam if you feel the need to access it quickly and don't mind clutter, like I
 did for the terminal application. From the Steam UI you will be able to set
@@ -110,6 +110,26 @@ Sources:
 - [GitHub GloriousEggroll/proton-ge-custom][6]
 - [rockpapershotgun.com][7]
 
+
+### Strategy for installing and updating Compatibility Tools
+
+- Steam: Tools below are only avialable and updatable through ProtonUp-Qt
+  - GE-Proton: installed
+  - Boxtron: not installed
+  - Luxtorpeda: not installed
+  - Proton Tkg: not installed
+  - Roberta: not installed
+  - SteamTinkerLaunch: not installed
+- Heroic Wine: Nothing installed here or managed with Heroic or ProtonUp-Qt since Heroic is able to detect tools installed in Steam name space. Avoid management overhead and diskspace cruft by installing and updating all possible tools in all possible places when possible.
+  - Lutris is only available here for Steam and Heroic, but if you have serious problems with a game, debugging in Bottles looks like the most constructive option.
+- Heroic Proton: Same as above.
+- Bottles: Tools below are primarily avialable through Bolltes you'll make a mess when you use ProtonUp-Qt. You can find them through the menu button (three bars) -> Preferences -> **Runners**.
+  - caffe: installed
+  - lutris: installed
+  - soda: installed
+  - vaniglia: installed
+  - GE Wine: installed
+  - GE-Proton: not installed
 
 ## Installation and use Bottles
 
@@ -234,3 +254,4 @@ marketing gimmick from Apple and other manucaturers.
 [8]: https://github.com/redromnon/HeroicBashLauncher/wiki/Steam-Deck-(Flatpak)-Guide
 [9]: https://flathub.org/apps/details/com.usebottles.bottles
 [10]: https://docs.usebottles.com/getting-started/first-run
+[11]: https://flathub.org/apps/details/net.davidotek.pupgui2
