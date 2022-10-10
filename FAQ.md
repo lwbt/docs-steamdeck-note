@@ -125,3 +125,8 @@ attributes there.
 I change to the default layout, which was not detault on SteamOS, for which I
 swapped PGUP and PGDN, set mouse acceleration on the trackpad to high und
 reduced haptic feedback.
+
+
+## My games look like Pixel Art, but not in desktop mode
+
+You have enabled half rate shading in the power menu, disabled it.
