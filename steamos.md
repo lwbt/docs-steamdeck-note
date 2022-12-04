@@ -195,6 +195,7 @@ Excerpt:
 - Dead Or Alive 5 LR  https://www.protondb.com/app/311730 `PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 %command%`
 - Dead Or Alive 6 https://www.protondb.com/app/838380 Use Proton GE for working story mode
 - Tomb Raider Underworld: https://www.protondb.com/app/8140 `PROTON_USE_WINED3D=1 %command% gamescope -w 1920 -h 1080 -r 60 -n`
+- Ground Control Anthology: https://www.protondb.com/app/254820 `-mod DARKCONS` for the expansion pack
 
 
 ### Heroic: Epic Games Store and GOG
