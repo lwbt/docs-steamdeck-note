@@ -198,6 +198,13 @@ Excerpt:
 - Ground Control Anthology: https://www.protondb.com/app/254820 `-mod DARKCONS` for the expansion pack
 
 
+### Where and how to report compatibility issues?
+
+> add `PROTON_LOG=1 %command%` to the game's launch options and attach the generated $HOME/steam-$APPID.log
+
+https://github.com/ValveSoftware/Proton/issues/new/choose
+
+
 ### Heroic: Epic Games Store and GOG
 
 Epic Games:
@@ -209,6 +216,7 @@ GOG:
 - Tomb Raider 1+2+3
   - Controller mappings: https://www.thekinsie.com/words/tombraider/
   - Been unable to launch Tomb Raider 3 yet
+  - Tomb Raider 5 seems to work fine
 
 
 ## Known issues with hardware
@@ -231,7 +239,8 @@ TODO: link dotfiles repo here.
 While SteamOS should be treated like an appliance investigation which parts
 could be handled through Ansible configuration management should be evaluated.
 
-## Battery life extender (aka stop charing at 80%)
+
+## Battery life extender (aka stop charging at 80%)
 
 > If your device has been left on the charger for long periods of time, it may
 > report less than 100% charge. This is normal. We allow the battery to slowly
