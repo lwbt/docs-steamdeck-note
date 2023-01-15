@@ -1,0 +1,82 @@
+[
+  {
+    "state": "active",
+    "name": "SearchboxTaskbarMode",
+    "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Search",
+    "value": "0",
+    "type": "DWord",
+    "comment": "Remove Search Icon"
+  },
+  {
+    "state": "active",
+    "name": "TaskbarMn",
+    "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "value": "0",
+    "type": "DWord",
+    "comment": "Remove Chat Icon"
+  },
+  {
+    "state": "active",
+    "name": "HideFileExt",
+    "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "value": "0",
+    "type": "DWord",
+    "comment": "Do not hide file extensions! Requires reboot or sign out."
+  },
+  {
+    "state": "active",
+    "name": "HideIcons",
+    "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "value": "1",
+    "type": "DWord",
+    "comment": "Hide Desktop Icons"
+  },
+  {
+    "state": "active",
+    "name": "NavPaneShowAllFolders",
+    "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "value": "1",
+    "type": "DWord",
+    "comment": "Show all folders in explorer navigation pane"
+  },
+  {
+    "state": "active",
+    "name": "DevicePasswordLessBuildVersion",
+    "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\PasswordLess\\Device",
+    "value": "0",
+    "type": "DWord",
+    "comment": "Re-enable passwordless login in netplwiz"
+  },
+  {
+    "state": "active",
+    "name": "LogPixels",
+    "path": "HKCU:\\Control Panel\\Desktop",
+    "value": "96",
+    "type": "DWord",
+    "comment": "Set display scaling to 100 percent https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/dpi-related-apis-and-registry-settings?view=windows-11#table-6-hkcucontrol-paneldesktoplogpixels-values"
+  },
+  {
+    "state": "active",
+    "name": "bShowStartPage",
+    "path": "HKCU:\\Software\\Foxit Software\\Foxit PDF Reader 12.0\\Preferences\\General",
+    "value": "0",
+    "type": "String",
+    "comment": "Foxit Reader hide start page"
+  },
+  {
+    "state": "active",
+    "name": "bShowAdvertisement",
+    "path": "HKCU:\\Software\\Foxit Software\\Foxit PDF Reader 12.0\\Preferences\\General",
+    "value": "0",
+    "type": "String",
+    "comment": "Foxit Reader hide ads"
+  },
+  {
+    "state": "active",
+    "name": "bShowFloatingPromotionPage",
+    "path": "HKCU:\\Software\\Foxit Software\\Foxit PDF Reader 12.0\\Preferences\\General",
+    "value": "0",
+    "type": "String",
+    "comment": "Foxit Reader hide promotion page"
+  }
+]

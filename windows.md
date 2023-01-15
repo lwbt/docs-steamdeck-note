@@ -43,3 +43,7 @@ Apparently this is still active and enabled in 2022 despite numerous CVEs.
 ```pwsh
 Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol
 ```
+
+## Can the Epic Games Launcher detect previously installed games?
+
+https://www.epicgames.com/help/en-US/epic-games-store-c5719341124379/launcher-support-c5719357217435/can-the-epic-games-launcher-detect-previously-installed-games-a5720251596059
