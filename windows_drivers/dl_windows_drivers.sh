@@ -38,6 +38,8 @@ for file in {GPU,WLAN,Blue,Sdcard}".zip"; do
   rmdir "${file%%.zip}/"* 2> /dev/null
 done
 
+cp -vL "sd_card_setup.iss" "Sdcard/setup.iss"
+
 # We are going the use a routine for the audio drivers where is is sufficient
 # to up them all in one folder.
 mkdir -pv "Audio"

@@ -1,2 +1,7 @@
 *.zip
 *.exe
+windows_drivers/Audio/
+windows_drivers/Blue/
+windows_drivers/GPU/
+windows_drivers/Sdcard/
+windows_drivers/WLAN/

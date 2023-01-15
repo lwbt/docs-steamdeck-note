@@ -30,6 +30,12 @@
     "type": "winget"
   },
   {
+    "state": "install",
+    "name": "gerardog.gsudo",
+    "comment": "Makes using administrative privileges easier",
+    "type": "winget"
+  },
+  {
     "state": "",
     "name": "GIMP.GIMP",
     "comment": "",
@@ -63,6 +69,12 @@
     "state": "",
     "name": "Meld.Meld",
     "comment": "(Gnome) Diff viewer",
+    "type": "winget"
+  },
+  {
+    "state": "install",
+    "name": "Microsoft.PowerShell",
+    "comment": "Upstream version of PowerShell, which behaves mopre like a Unix shell",
     "type": "winget"
   },
   {
@@ -153,6 +165,12 @@
     "state": "install",
     "name": "VideoLAN.VLC",
     "comment": "No MPV yet :-(",
+    "type": "winget"
+  },
+  {
+    "state": "install",
+    "name": "ViGEm.ViGEmBus",
+    "comment": "Required by SWICD",
     "type": "winget"
   },
   {
