@@ -1,0 +1,8 @@
+{
+    "injection": [
+        {
+            "image": "/images_x64/HBCD_PE_x64_stripped.iso",
+            "archive": "/ventoy/HBCD_addons.7z"
+        }
+    ]
+}
