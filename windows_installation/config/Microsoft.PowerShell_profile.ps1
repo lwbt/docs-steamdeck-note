@@ -1,4 +1,4 @@
-# Access vom CLI via nvim $PROFILE
+# Access from CLI via nvim $PROFILE
 Import-Module PSReadLine
 Set-Alias -Name 7z -Value "$env:ProgramFiles\7-Zip\7z.exe"
 Set-Alias -Name jq -Value "$env:LOCALAPPDATA\Microsoft\WinGet\Packages\stedolan.jq_Microsoft.Winget.Source_8wekyb3d8bbwe\jq-win64.exe"

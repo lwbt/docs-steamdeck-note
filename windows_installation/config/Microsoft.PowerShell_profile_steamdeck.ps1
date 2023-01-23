@@ -1,4 +1,4 @@
-# Access vom CLI via nvim $PROFILE
+# Access from CLI via nvim $PROFILE
 Set-Alias -Name 7z -Value "$env:ProgramFiles\7-Zip\7z.exe"
 Set-Alias -Name keepassxc-cli -Value "$env:ProgramFiles\KeePassXC\keepassxc-cli.exe"
 Set-Alias -Name ll -Value ls
