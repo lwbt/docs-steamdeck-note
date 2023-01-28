@@ -1,10 +1,12 @@
-*.zip
+*.7z
 *.exe
+*.iso
+*.zip
 windows_drivers/Audio/
 windows_drivers/Blue/
 windows_drivers/GPU/
 windows_drivers/Sdcard/
 windows_drivers/WLAN/
-winpe/HBCD_PE_x64.iso
-winpe/HBCD_PE_x64_stripped.iso
-winpe/HBCD_addons.7z
+winpe/assets/HBCD_PE_dark.jpg
+winpe/assets/HBCD_PE_light.jpg
+winpe/cache/

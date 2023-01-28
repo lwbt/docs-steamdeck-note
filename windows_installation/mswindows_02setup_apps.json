@@ -162,6 +162,12 @@
     "type": "winget"
   },
   {
+    "state": "",
+    "name": "twpayne.chezmoi",
+    "comment": "Pending https://github.com/microsoft/winget-pkgs/pull/94759",
+    "type": "winget"
+  },
+  {
     "state": "install",
     "name": "VideoLAN.VLC",
     "comment": "No MPV yet :-(",
