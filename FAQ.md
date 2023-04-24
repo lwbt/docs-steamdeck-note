@@ -99,6 +99,14 @@ insights through metrics. Steam Deck has a performance overlay which does what
 gaming journaslits expect though.
 
 
+## Can I run emulation?
+
+Besiedes RetroArch forvarious things there seems to be EmuDeck particularly
+made for SteamDeck.
+
+https://www.emudeck.com/#how_to_install
+
+
 ## Can I run games bought from the Origin or GOG store on Steam Deck?
 
 Yes.
