@@ -41,6 +41,14 @@
   },
   {
     "state": "active",
+    "name": "DisallowShaking",
+    "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "value": "1",
+    "type": "DWord",
+    "comment": "Turn off Aero Shake"
+  },
+  {
+    "state": "active",
     "name": "DevicePasswordLessBuildVersion",
     "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\PasswordLess\\Device",
     "value": "0",
