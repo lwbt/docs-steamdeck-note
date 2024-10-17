@@ -23,9 +23,9 @@
 Quite usable, not as annoying as the moving tiles in the Windows 10 and 8 start
 menu. I guess that was a fad and many frequent users of Windows 10 were more
 annoyed by invasive marketing than I thought there would be. Still more than a
-row of shortcuts to I apps I don't want to use, but they are not preinstalled and
-can be removed easily. At best one of the existing scripts can be updated, but I
-should brush up my PowerShell knowledge first.
+row of shortcuts to I apps I don't want to use, but they are not preinstalled
+and can be removed easily. At best one of the existing scripts can be updated,
+but I should brush up my PowerShell knowledge first.
 
 Avoid installing too many things. Use the standard zip tool and editor. Install
 games that don't run in SteamOS to run them and nothing else. Do Micromanagement

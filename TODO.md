@@ -1,8 +1,5 @@
-- Use Homebrew to install go and be able to install yubikey-agent:
-  - https://gist.github.com/uyjulian/105397c59e95f79f488297bb08c39146
-  - https://github.com/FiloSottile/yubikey-agent
-  - https://determinate.systems/posts/nix-on-the-steam-deck
-    - steam OS images: https://store.steampowered.com/steamos/buildyourown
-    - https://help.steampowered.com/en/faqs/view/1b71-edf2-eb6d-2bb3
+- https://determinate.systems/posts/nix-on-the-steam-deck
+- steam OS images: https://store.steampowered.com/steamos/buildyourown
+- https://help.steampowered.com/en/faqs/view/1b71-edf2-eb6d-2bb3
 - MPRIS for Lollypop: https://www.reddit.com/r/SteamDeck/comments/11tfqn2/guide_to_control_audio_in_game_mode_with_decky/
   - Does not work at the moment
