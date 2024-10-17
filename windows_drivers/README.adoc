@@ -15,7 +15,7 @@
 
 [source,bash]
 ----
-dl_windows_drivers.sh
+dl_windows_drivers.sh {oled,}
 ----
 
 == Installing drivers on Steam Deck
