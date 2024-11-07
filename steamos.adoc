@@ -317,8 +317,9 @@ the scope of this document.
 # Set a temporary sudo password like 123456 for current user deck
 passwd
 # Configure passwordless sudo access for users in the wheel group
-echo "%wheel ALL=(ALL) NOPASSWD:ALL" \
-| sudo tee /etc/sudoers.d/wheel >/dev/null
+# echo "%wheel ALL=(ALL) NOPASSWD:ALL" \
+# | sudo tee /etc/sudoers.d/wheel >/dev/null
+sudo tee /etc/sudoers.d/wheel >/dev/null <<< "%wheel ALL=(ALL) NOPASSWD:ALL"
 # Remove the temporary password for the user deck
 sudo passwd -d deck
 ----
